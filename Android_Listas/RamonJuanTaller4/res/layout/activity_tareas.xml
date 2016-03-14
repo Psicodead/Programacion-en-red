@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tareas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro" >
+    
+    <!--INICIA LA MODIFICACION POR TUTORIAL -->
+    
+    
+    <!--TERMINA LA MODIFICACION POR TUTORIAL -->
+
+ <ListView
+     android:id="@+id/listaTareas"
+     android:layout_width="match_parent"
+     android:layout_height="fill_parent"
+     android:layout_above="@+id/contenidoTarea"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="@dimen/abc_action_bar_default_height"
+     android:headerDividersEnabled="false" >
+
+    </ListView>
+    
+    <EditText
+        android:id="@+id/contenidoTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/contenidoTarea"
+        android:text="@string/contenidoTarea" />
+
+    <Button
+        android:id="@+id/addTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/contenidoTarea"
+        android:layout_toRightOf="@+id/contenidoTarea"
+        android:text="@string/addTarea" />
+
+    <TextView
+        android:id="@+id/InfoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:text="@string/InfoUsuario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+</RelativeLayout>

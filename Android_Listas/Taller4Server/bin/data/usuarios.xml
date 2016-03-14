@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <usuario ocupacion="Fotografo">usuario</usuario>
+  <usuario ocupacion="Tecnico Luces">miUsuario</usuario>
+  <usuario ocupacion="Fotografo">Jose</usuario>
+  <usuario ocupacion="Fotografo">isa</usuario>
+  <usuario ocupacion="Fotografo">camilo</usuario>
+  <usuario ocupacion="Fotografo">andrea</usuario>
+  <usuario ocupacion="Tecnico Revelado">carlos</usuario>
+  <usuario ocupacion="Tecnico Luces">fernando</usuario>
+</usuarios>

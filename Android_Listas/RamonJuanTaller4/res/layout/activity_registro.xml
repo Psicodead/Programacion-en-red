@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android1:background="@drawable/registro" >
+
+    <TextView
+        android1:id="@+id/tituloReg"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="14dp"
+        android1:text="@string/tituloReg"
+        android1:textColor="@android:color/background_light"
+        android1:textSize="20sp" />
+
+    <EditText
+        android1:id="@+id/idUsuario"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/oficio"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginBottom="54dp"
+        android1:background="@drawable/edit_text"
+        android1:ems="10"
+        android1:hint="@string/idUsuario"
+        android1:paddingLeft="10dp" />
+
+    <RadioGroup
+        android1:id="@+id/oficio"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/idUsuario"
+        android1:layout_centerVertical="true" >
+
+        <RadioButton
+            android1:id="@+id/radio0"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:checked="false"
+            android1:text="@string/radio0" />
+
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="@string/radio1" />
+
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="@string/radio2" />
+    </RadioGroup>
+
+    <Button
+        android1:id="@+id/signin"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/oficio"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="44dp"
+        android1:background="@drawable/btnlogin2"
+        android1:text="@string/botonRegistro"
+        android1:textColor="@android:color/background_light" />
+
+    <TextView
+        android1:id="@+id/textoInformacion"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginBottom="16dp"
+        android1:text="@string/textoInformacion"
+        android1:textAlignment="center" />
+
+</RelativeLayout>
